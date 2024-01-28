@@ -7,7 +7,7 @@
 </head>
 
 <body class="w-100 text-center py-5">
-	<h1>Industries Sentiment Tracker</h1>
+	<h1>Industry Sentiment Tracker</h1>
 	<p class="mb-5">By Aaron Li and Kelly Chang</p>
 	<button id="run-analysis" class="btn btn-primary">Run Analysis</button>
 	<p id="stats" class="mt-4">
@@ -104,7 +104,7 @@
                         }
                     }
 
-                    document.getElementById("stats").innerHTML = "Total Industry Sentiment Stats: ";
+                    document.getElementById("stats").innerHTML = "Total Industries Sentiment Stats: ";
                     for (var i = 1; i <= 5; i++) {
                         document.getElementById("stats").innerHTML += "<br>" + i + "/5: " + total_stats[i];
                     }
